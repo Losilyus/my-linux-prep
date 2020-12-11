@@ -87,7 +87,7 @@ sudo pacman --noconfirm -S code
 sudo pacman --noconfirm -S unzip unrar ark tar cabextract p7zip
 
 # for discord
-sudo pacman --noconfirm -S discord
+sudo yay --noconfirm -S discord-development
 yay --noconfirm -S cordless-git
 
 # for office programs
@@ -101,6 +101,10 @@ sudo pacman --noconfirm -S python python-pip go rust elixir nim
 
 # for calc
 sudo pacman --noconfirm -S kclac
+
+#for spotify
+curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | gpg --import -
+yay -S --noconfirim spotify
 
 # for zsh
 sudo pacman --noconfirm -S zsh 
